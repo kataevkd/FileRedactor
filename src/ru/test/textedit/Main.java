@@ -16,7 +16,7 @@ public class Main implements ActionListener {
         JFrame frame = new JFrame("Text Editor"); // создали фрейм с заголовком (создание окна приложения)
         frame.setSize(800, 600); // задаем фрейму размеры
         frame.setVisible(true); // отображение фрейма параметр true
-        frame.setLocationRelativeTo(null); // отображение по центру
+        frame.setLocationRelativeTo(null); // отображение по центру фреймв
 
         JButton buttonOpen = new JButton("Open file"); // кнопка открыть файл
         buttonOpen.setLocation(10, 10); // задаем отступы слева и сверху для кнопки
